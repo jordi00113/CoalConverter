@@ -1,0 +1,45 @@
+# CoalConverter 1.0
+#
+# Colour chart
+# Char  ||   Definition
+# ======||============
+#  &b   ||  aqua
+#  &0   ||  black
+#  &9   ||  blue
+#  &3   ||  dark_aqua
+#  &1   ||  dark_blue
+#  &8   ||  dark_gray
+#  &2   ||  dark_green
+#  &5   ||  dark_purple
+#  &4   ||  dark_red
+#  &6   ||  gold
+#  &7   ||  gray
+#  &a   ||  green
+#  &d   ||  purple
+#  &c   ||  red
+#  &f   ||  white
+#  &e   ||  yellow
+#  &k   ||  magic
+#  &l   ||  bold
+#  &o   ||  italic
+#  &r   ||  reset
+#  &m   ||  strike
+#  &n   ||  underline
+#
+# Currently you can only use the char for color.
+# Example: title: "&b&l This is my title in aqua & bold ! &r&7&o I'm in italic and is reset.
+messages:
+  general:
+    prefix: "&6&lCoalConverter >>"
+    prefix_debug: "&4&l[DEBUG] CoalConverter >>"
+    sub_cmd_not_exist: "&8The provided sub command &cdoesn't &8exist."
+    reload: "&fConfiguration is &a&lSuccessfully &freloaded."
+    no_perm: "&8You do &c&lnot &r&8have permission."
+    version: "&fCurrent plugion version: &cv:%s&f."
+    player_only_cmd: "This command can only be used in-game."
+  convert_coal:
+    not_enough: "Not enough Charcoal to convert."
+    succesfully_converted: "You &c&lsuccesfully &r&fconverted &c&l%d&r &fcharcoal."
+    greather_zero: "The specified number of charcoal must be greather than 0."
+    not_an_integer: "The provided quantity must be a whole integer and greater than 0."
+    only_one_arg_req: "Only one argument is allowed."

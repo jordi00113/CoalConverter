@@ -1,0 +1,32 @@
+name: CoalConverter
+version: ${project.version}
+main: be.jordiperreman.coalconverter.CoalConverter
+api-version: 1.18
+authors: [ jordi00113 ]
+description: Converts Charcoal into Coal
+website: jordiperreman.be
+commands:
+  coal:
+    description: Converts Charcoal into Coal
+    usage: /<command> [options]
+    permission: coalconverter.coal
+  coalconverter:
+    description: Administrator commands
+    usage: /<command> [subcommand]
+    permission: coalconverter
+permissions:
+  coalconverter:
+    description: General permission coalconverter command.
+    default: true
+  coalconverter.coal:
+    description: Allows to convert charcoal to paper
+    default: true
+  coalconverter.reload:
+    description: Allows to reload coalconverter plugin configuration files.
+    default: op
+  coalconverter.version:
+    description: Allows to display coalconverter version.
+    default: op
+  coalconverter.author:
+    description: Allows to display coalconverter author.
+    default: op
