@@ -1,7 +1,7 @@
 name: CoalConverter
 version: ${project.version}
 main: be.jordiperreman.coalconverter.CoalConverter
-api-version: 1.18
+api-version: 1.13
 authors: [ jordi00113 ]
 description: Converts Charcoal into Coal
 website: jordiperreman.be

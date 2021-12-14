@@ -22,7 +22,7 @@ public final class CoalConverter extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Init recept
+        // Init Recipes
         new CharcoalRecipe(this).createCharcoalRecipes();
 
         //Register  coal command
