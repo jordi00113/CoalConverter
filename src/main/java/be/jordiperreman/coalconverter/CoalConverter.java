@@ -35,6 +35,9 @@ public final class CoalConverter extends JavaPlugin {
         getCommand("coalconverter").setExecutor(coalConverterCmd);
         getCommand("coalconverter").setTabCompleter(coalConverterCmd);
         coalConverterCmd.registerSubCommands();
+
+        // Load config
+        configService.loadConfig();
     }
 
     @Override
