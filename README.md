@@ -7,7 +7,7 @@ Lightweight simple plugin which lets you convert Charcoal to Coal and vice versa
 ### Features
 + Change Coal into Charcoal (/coal)
 + Change Charcoal into Coal (/coal)
-+ Adds custom recips for converting Charcoal and coal.
++ Adds custom recipes for converting Charcoal and coal.
 
 ### Commands & Permissions
 #### Player section
